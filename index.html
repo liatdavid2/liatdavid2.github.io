@@ -94,40 +94,42 @@ header{
    
     color: #dfca30;
 }
+.borderTopWhite{
+border-top: 1px solid #3e3e3e;
+    margin-top: 20px;
+}
 	</style>
   </head>
   <body>
    
    
-    <header>
+    <header class="container-fluid">
 	 <h5 class="my-0 mr-md-auto font-weight-bold text-center bg-white">Liat David - full stack web developer - Specializes in Big Data</h5>
 
-	    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white shadow-headline">
+	    <div class=" borderTopWhite">
      
-      <!--nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2" href="#">All</a>
-        <a class="p-2" href="#">Enterprise</a>
-        <a class="p-2" href="#">Support</a>
-        <a class="p-2" href="#">Pricing</a>
-      </nav-->
+      <nav class="my-2 my-md-0 mr-md-3 ">
+        <a class="p-2" href="#">Web application</a>
+        <a class="p-2" href="#">Algorithms</a>
+      </nav>
     </div>
 
     </header>
 
-    <main role="main">
+    <main role="main" class="shadow-headline">
 
 
 
-      <div class="album py-5 bg-dark">
-        <div class="container">
+      <div class="album py-5 bg-dark shadow-headline">
+        <div class="container-fluid">
 
           <div class="row">
             <div class="col-md-4 col-lg-3">
               <div class="card mb-4 shadow-sm">
 				<iframe src="https://www.youtube.com/embed/7W6HnEX2-bI?mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" allowfullscreen></iframe>                
 				<div class="card-body">
-				<h5>Cluster Map Algorithem</h5>
-                  <p class="card-text "> 50000 points - create, read ,update delete (crud) each point from db mssql.</p>
+				<h5>Map with 50000 points and Cluster Algorithm</h5>
+                  <p class="card-text ">The 50000 points that can be created, read, updated, deleted (crud) in mssql DB.</p>
     
                 </div>
               </div>
@@ -137,8 +139,9 @@ header{
               <div class="card mb-4 shadow-sm">
 				<iframe src="https://www.youtube.com/embed/fLFrYs5gKW8?mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" allowfullscreen></iframe>                
 				<div class="card-body">
-	<h5>Cluster Map Algorithem</h5>
-                  <p class="card-text "> 50000 points - create, read ,update delete (crud) each point from db mssql.</p>
+	<h5>Infomatix - Admin App</h5>
+                  <p class="card-text "> responsive admin app for infomatix web application.
+				 All the data from the server can be edited in admin infomatix app.</p>
                   <!--div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btnStyle">View</button>
@@ -154,7 +157,7 @@ header{
               <div class="card mb-4 shadow-sm">
 				<iframe src="https://www.youtube.com/embed/8VPKr-pj6G0?mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" allowfullscreen></iframe>
                 <div class="card-body">
-	<h5>Cluster Map Algorithem</h5>
+	<h5>Social media for scientists</h5>
                   <p class="card-text "> 50000 points - create, read ,update delete (crud) each point from db mssql.</p>
    
                 </div>
@@ -230,7 +233,7 @@ header{
     </main>
 
     <footer class="text-muted">
-      <div class="container">
+      <div class="container-fluid">
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
