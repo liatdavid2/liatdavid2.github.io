@@ -5,7 +5,7 @@
 
     var styles;
     styles = ["background: #7b77c9", "color: white", "display: block", "padding: 20px 20px 20px 20px", "text-align: center", "font-weight: normal", "font-size: 20px", "line-height: 60px"].join(";");
-    console.log('%c Lithium Loaded :)', styles, 'For usage visit: https://github.com/owldesign/3.-Lithium');
+
     $(svgInjector);
     $(worksFilter);
     $(photoSection);
