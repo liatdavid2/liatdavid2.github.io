@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import UserSignupPage from './pages/UserSignupPage'
+import * as apiCalls from './api/apiCalls'
 
+const actions = {
+  postSignup: apiCalls.signup
+}
 ReactDOM.render(
   <React.StrictMode>
-    <UserSignupPage/>
+    <UserSignupPage actions={actions}/>
     {/* <App /> */}    
   </React.StrictMode>,
   document.getElementById('root')
